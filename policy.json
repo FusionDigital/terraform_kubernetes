@@ -1,0 +1,12 @@
+{
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::058264113122:user/terraform-deployer"
+            },
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::terraform-dpozzi-eks-cluster-tfstate-state"
+        }
+    ]
+}
